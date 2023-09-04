@@ -4,4 +4,6 @@ K-pop
 #Visual studio code
 #HTML, CSS, JavaScript
 #chrome
+Windows 10 o superior
+
 
