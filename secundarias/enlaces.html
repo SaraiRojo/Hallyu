@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="enlaces.css">
+    <title>Página con 3 Columnas</title>
+</head>
+<body>
+    <header>
+        <h1>Sitios oficiales</h1>
+    </header>
+
+    <div class="container">
+        <div class="column">
+            <img src="C:\Users\sarai\Desktop\ISIC 4 GRADO\Gestiones Tecnológicas Empresariales\Imagenes\yg.png" class="d-block mx-auto" style="max-width: 60%;" alt="YG">
+            <button class="button-link" onclick="toggleText('text1')"><a href="https://www.ygfamily.com/">YG Entertainment</a></button>
+            <p>YG Entertainment es una empresa de entretenimiento surcoreana, fundada en 1996 por Yang Hyun-suk con sede en Seúl.​ La empresa actúa como una discográfica, agencia de talentos, marca de ropa, marca de cosméticos, empresa de gestión de eventos y producción de conciertos.</p>
+        </div>
+        <div class="column">
+            <img src="C:\Users\sarai\Desktop\ISIC 4 GRADO\Gestiones Tecnológicas Empresariales\Imagenes\hybe.png" class="d-block mx-auto" style="max-width: 60%;" alt="HYBE">
+            <button class="button-link" onclick="toggleText('text2')"><a href="https://hybecorp.com/eng/main">HYBE Label</a></button>
+            <p>HYBE (en hangul, 하이브; romanización revisada del coreano, Haibeu) es una compañía de Corea del Sur establecida en febrero de 2005 por Bang Si-hyuk.4​5​ La empresa opera como sello discográfico, agencia de talentos, compañía de producción musical, gestión de eventos, producción de conciertos, y como editorial de música. Posee múltiples sellos discográficos, en estos se incluyen Big Hit Music, Source Music, Pledis Entertainment, Belift Lab, KOZ Entertainment, ADOR, HYBE Labels Japan, NAECO, Big Machine Label Group y QC Music.</p>
+        </div>
+        <div class="column">
+            <img src="C:\Users\sarai\Desktop\ISIC 4 GRADO\Gestiones Tecnológicas Empresariales\Imagenes\jyp.png" class="d-block mx-auto" style="max-width: 60%;" alt="JyP">
+            <button class="button-link" onclick="toggleText('text3')"><a href="https://www.jype.com/">JyP Entertainment</a></button>
+            <p>JYP Entertainment (en hangul, JYP 엔터테인먼트), es un sello discográfico coreano fundado en Seúl, Corea del Sur en 1997 por JY Park, hogar de artistas como: 2PM, TWICE, Stray Kids, Day6, Boy Story, ITZY, Xdinary Heroes, NMIXX, NiziU y VCHA.</p>
+        </div>
+    </div>
+
+    <script>
+        function toggleText(id) {
+            const text = document.getElementById(id);
+            if (text.classList.contains("hidden")) {
+                text.classList.remove("hidden");
+            } else {
+                text.classList.add("hidden");
+            }
+        }
+    </script>
+</body>
+</html>
+
