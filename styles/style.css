@@ -61,7 +61,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 12px 40px;
-    background-color: #FFD700;
+    background-color: #00f7ff;
     color: #fff;
     border: #0c0c0c;
     z-index: 1000; /* Asegura que esté por encima del contenido */
